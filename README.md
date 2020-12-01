@@ -17,6 +17,7 @@ Create a StringManipulator class that implements the following methods:
 StringManipulator manipulator = new StringManipulator();
 String str = manipulator.trimAndConcat("    Hello     ","     World    ");
 System.out.println(str); // HelloWorld 
+
 ● Integer getIndexOrNull(String, char): Get the index of the character and return either the index or null. If the character appears multiple times, return the first index. Feel free to use the indexOf method of the String class.
 
 StringManipulator manipulator = new StringManipulator();
@@ -27,6 +28,7 @@ Integer c = manipulator.getIndexOrNull("Hi", letter);
 System.out.println(a); // 1
 System.out.println(b); // 4
 System.out.println(c); // null
+
 ● Integer getIndexOrNull(String, String): Get the index of the start of the substring and return either the index or null. Feel free to use the indexOf method of the String class.
 
 StringManipulator manipulator = new StringManipulator();
@@ -37,6 +39,7 @@ Integer a = manipulator.getIndexOrNull(word, subString);
 Integer b = manipulator.getIndexOrNull(word, notSubString);
 System.out.println(a); // 2
 System.out.println(b); // null
+
 ● String concatSubstring(String, int, int, String): Get a substring using a starting and ending index, and concatenate that with the second string input to our method. Feel free to use the substring method of the String class.
 
 StringManipulator manipulator = new StringManipulator();
